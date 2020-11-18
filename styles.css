@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(to right ,#BBD2C5, #536976, #292E49);;
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+}
+.app-container{
+    width: 600px;
+    height: 300px;
+    border: 4px solid black;
+    box-shadow: 4px 8px transparent;
+    background-image: linear-gradient(to right , #acb6e5, #86fde8);
+}
+.title{
+    margin-top: 5px;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.info-container{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.weather-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.date-time-location{
+    font-size: 30px;
+}
+.date{
+    margin-top: 2px;
+}
+.time{
+    margin-top: 2px;
+}
+.location{
+    margin-top: 2px;
+}
+.temperature-value{
+    font-size: 60px;
+}
+.temperature-description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.wind-info{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sunrise-sunset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.windSpeed{
+    margin-bottom: 10px;
+}
+.humidity{
+    margin-bottom: 10px;
+}
+.notification{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    margin-top: 10px;
+}
+#notification{
+    color: red;
+}
